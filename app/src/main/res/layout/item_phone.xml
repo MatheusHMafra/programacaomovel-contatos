@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <EditText
+        android:id="@+id/editTextDDD"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="DDD"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextPhoneNumber"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:hint="Número"
+        android:inputType="phone" />
+
+    <Spinner
+        android:id="@+id/spinnerPhoneType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/phone_types" />
+
+    <Button
+        android:id="@+id/buttonDeletePhone"
+        android:layout_width="32dp"
+        android:layout_height="48dp"
+        android:padding="4dp"
+        android:text="x"
+        android:textSize="12sp" />
+
+</LinearLayout>

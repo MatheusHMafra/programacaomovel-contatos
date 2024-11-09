@@ -1,0 +1,5 @@
+<resources>
+    <item name="buttonDeletePhone" type="id"/>
+    <item name="textViewFullName" type="id" />
+    <item name="textViewPhone" type="id" />
+</resources>

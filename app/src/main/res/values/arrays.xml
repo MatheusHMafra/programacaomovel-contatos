@@ -1,0 +1,8 @@
+
+<resources>
+    <string-array name="phone_types">
+        <item>Casa</item>
+        <item>Celular</item>
+        <item>Trabalho</item>
+    </string-array>
+</resources>
